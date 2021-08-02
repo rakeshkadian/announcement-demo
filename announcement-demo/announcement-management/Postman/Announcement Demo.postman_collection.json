@@ -1,0 +1,56 @@
+{
+	"info": {
+		"_postman_id": "24a68f3b-9ea5-4d0a-8ea2-a25a7fb92125",
+		"name": "Announcement Demo",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Retrieve Announcement",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8012/announcement",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8012",
+					"path": [
+						"announcement"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Create Announcement",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"title\":\"test2\",\r\n    \"description\":\"test desc\",\r\n    \"announcementDate\":\"2021-07-28 19:00:34\"\r\n    \r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8012/announcement",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8012",
+					"path": [
+						"announcement"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
