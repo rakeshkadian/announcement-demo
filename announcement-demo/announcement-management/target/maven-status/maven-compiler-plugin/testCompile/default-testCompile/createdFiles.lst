@@ -1,0 +1,7 @@
+com\pil\announcement\application\mvc\BaseMvcTest.class
+com\pil\announcement\configuration\TestConfig.class
+com\pil\announcement\application\mvc\AnnouncementControllerTest.class
+com\pil\announcement\service\AnnouncementServiceTest.class
+com\pil\announcement\jpa\BaseJpaTest.class
+com\pil\announcement\jpa\AnnouncementJpaTest.class
+com\pil\announcement\application\mvc\BaseMvcTest$1.class
